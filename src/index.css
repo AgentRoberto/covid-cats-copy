@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'pixel';
+  src: local('pixel'), url(SPACE.ttf) format('truetype');
+  font-weight: lighter;
+}

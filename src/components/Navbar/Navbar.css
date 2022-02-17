@@ -1,0 +1,52 @@
+.NavbarItems {
+    background: #4b235a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+.logo-type {
+    cursor:default;
+    color: #aaffaa;
+}
+
+.nav-links {
+    display: inline-block;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    cursor: pointer;
+    font-size: .8em;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+.nav-links:hover {
+    text-decoration: underline;
+    color:#aaffaa;
+}
+
+.nav-links:active,
+.nav-links:focus {
+    background-color: violet;
+}
+.nav-menu {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4A235A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+    list-style: none;
+
+}
